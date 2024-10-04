@@ -8,4 +8,12 @@ public class Personne {
     public String prenom;
     public AdressePostale adresse;
 
+    public Personne(String nom, String prenom){
+
+    }
+
+    public Personne(String nom, String prenom, AdressePostale adresse){
+
+    }
+
 }
