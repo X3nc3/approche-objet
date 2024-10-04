@@ -15,16 +15,16 @@ public class TestPersonne {
         Personne per1 = new Personne();
         per1.nom = "OGIER";
         per1.prenom = "Maxence";
-        per1.adressePostale = adr1;
+        per1.adresse = adr1;
 
         Personne per2 = new Personne();
         per2.nom = "OGIER";
         per2.prenom = "Dominique";
-        per2.adressePostale = new AdressePostale();
-        per2.adressePostale.numeroDeRue = 32;
-        per2.adressePostale.libelleDeRue = "Le val profond";
-        per2.adressePostale.codePostal = 91570;
-        per2.adressePostale.ville = "Bièvres";
+        per2.adresse = new AdressePostale();
+        per2.adresse.numeroDeRue = 32;
+        per2.adresse.libelleDeRue = "Le val profond";
+        per2.adresse.codePostal = 91570;
+        per2.adresse.ville = "Bièvres";
 
     }
 
