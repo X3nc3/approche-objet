@@ -21,10 +21,14 @@ public class TestPersonne {
         per2.nom = "OGIER";
         per2.prenom = "Dominique";
         per2.adressePostale = new AdressePostale();
-        int numeroDeRue = 32;
+        per2.adressePostale.numeroDeRue = 32;
+        per2.adressePostale.libelleDeRue = "Le val profond";
+        per2.adressePostale.codePostal = 91570;
+        per2.adressePostale.ville = "Bièvres";
+        /*int numeroDeRue = 32;
         String libelleDeRue = "Le val profond";
         int codePostal = 91570;
-        String ville = "Bièvres";
+        String ville = "Bièvres";*/
 
     }
 
