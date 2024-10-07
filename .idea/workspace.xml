@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcc2da0b-0e62-4d1f-a8ee-2f6f67a8872a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/entites/Compte.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/banque/TestBanque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/banque/TestBanque.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +51,26 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="banque" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestBanque" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="banque.TestBanque" />
+      <module name="approche-objets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="banque.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestBanque" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
