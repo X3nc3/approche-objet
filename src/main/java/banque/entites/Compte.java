@@ -5,6 +5,11 @@ public class Compte {
     private int numeroCompte;
     private double soldeCompte;
 
+    public Compte(int numeroCompte, double soldeCompte) {
+        this.numeroCompte = numeroCompte;
+        this.soldeCompte = soldeCompte;
+    }
+
     public int getNumeroCompte() {
         return numeroCompte;
     }
@@ -18,11 +23,6 @@ public class Compte {
     }
 
     public void setSoldeCompte(double soldeCompte) {
-        this.soldeCompte = soldeCompte;
-    }
-
-    public Compte(int numeroCompte, double soldeCompte) {
-        this.numeroCompte = numeroCompte;
         this.soldeCompte = soldeCompte;
     }
 
