@@ -17,11 +17,10 @@ public class TestOperation {
 
         for (int i=0; i<tabOp.length; i++) {
             System.out.println(tabOp[i]);
-            System.out.println(tabOp[i].getType());
-            if (Objects.equals(tabOp[i].getType(), "CREDIT")) {
-                total += tabOp[i].montant;
+            if (tabOp[i].getType().equals("CREDIT")) {
+                total += tabOp[i].getMontant();
             } else if (Objects.equals(tabOp[i].getType(), "DEBIT")) {
-                total -= tabOp[i].montant;
+                total -= tabOp[i].getMontant();
             }
         }
 
