@@ -33,15 +33,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ManipulationChaine.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestIntervenant.executor": "Run",
+    "Application.TestMaison.executor": "Run",
+    "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
+    "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestTheatre.executor": "Run",
     "Application.testMethodeStatic.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/XenceMaster/Documents/Code/courDiginamic/tp_approche_objets/approche-objet",
+    "last_opened_file_path": "C:/Users/XenceMaster/Documents/Code/courDiginamic/tp_approche_imperative_java/approche-imperative",
     "onboarding.tips.debug.path": "C:/Users/XenceMaster/Documents/Code/courDiginamic/tp_approche_imperative_java/approche-objet/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -67,8 +73,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestMoyenne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fr.diginamic.essais.TestMoyenne" />
+      <module name="approche-objets" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fr.diginamic.essais.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.TestBanque" />
       </list>
     </recent_temporary>
