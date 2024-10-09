@@ -33,15 +33,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CreationListe.executor": "Run",
     "Application.ManipulationChaine.executor": "Run",
     "Application.TestBanque.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
+    "Application.TestListeInt.executor": "Run",
+    "Application.TestListeString.executor": "Run",
     "Application.TestMaison.executor": "Run",
     "Application.TestMoyenne.executor": "Run",
     "Application.TestOperation.executor": "Run",
     "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
     "Application.TestTheatre.executor": "Run",
+    "Application.TestVilles.executor": "Run",
     "Application.testMethodeStatic.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -88,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestMoyenne" />
         <item itemvalue="Application.TestBanque" />
+        <item itemvalue="Application.TestMoyenne" />
       </list>
     </recent_temporary>
   </component>
