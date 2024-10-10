@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardOpenOption;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +35,8 @@ public class LectureFichier {
 
         for (int i=0; i< ville.size(); i++) {
             if ( ville.get(i).getPopulation() > 25_000) {
-                fichierRecensementModifiePlusDe25000.add(String.valueOf(ville.get(i)));
+                String villeString = ville.get(i).getNom() + ";" + ville.get(i).getPopulation() + ";" + ville.get(i).getNomRegion() + ";" + ville.get(i).getNomRegion();
+                fichierRecensementModifiePlusDe25000.add(villeString);
             }
         }
 

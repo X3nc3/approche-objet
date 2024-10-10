@@ -16,7 +16,12 @@ public class Ville {
 
     @Override
     public String toString() {
-        return nom + ";" + codePostal + ";" + nomRegion + ";" + population;
+        return "Ville{" +
+                "nom='" + nom + '\'' +
+                ", codePostal='" + codePostal + '\'' +
+                ", nomRegion='" + nomRegion + '\'' +
+                ", population=" + population +
+                '}';
     }
 
     public String getNom() {
