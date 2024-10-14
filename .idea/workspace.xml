@@ -43,6 +43,7 @@
     "Application.ManipulationChaine.executor": "Run",
     "Application.MapVilles.executor": "Run",
     "Application.TestBanque.executor": "Run",
+    "Application.TestDates.executor": "Run",
     "Application.TestIntervenant.executor": "Run",
     "Application.TestJeuDeLaVie.executor": "Run",
     "Application.TestListeInt.executor": "Run",
