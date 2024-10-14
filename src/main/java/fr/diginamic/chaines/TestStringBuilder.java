@@ -10,7 +10,7 @@ public class TestStringBuilder {
             builder.append(i);
         }
         long fin = System.currentTimeMillis();
-        System.out.println("Temps écoulé en millisecondes : " + (fin - debut));
+        System.out.println("Temps écoulé en millisecondes avec StringBuilder : " + (fin - debut));
 
         String chiffre = "";
 
@@ -19,6 +19,6 @@ public class TestStringBuilder {
             chiffre += i;
         }
         long fin2 = System.currentTimeMillis();
-        System.out.println("Temps écoulé en millisecondes : " + (fin2 - debut2));
+        System.out.println("Temps écoulé en millisecondes avec + : " + (fin2 - debut2));
     }
 }
