@@ -1,5 +1,7 @@
 package liste;
 
+import java.util.Objects;
+
 public class Ville implements Comparable<Ville> {
 
     private String nom;
@@ -19,6 +21,21 @@ public class Ville implements Comparable<Ville> {
         } else {
             return 0;
         }
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (!(o instanceof Ville)) {
+            return false;
+        }
+        Ville autre = (Ville) o;
+        return nom.equals(autre.nom) && nbHabitants == autre.getNbHabitants();
+
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nom, nbHabitants);
     }
 
     @Override
