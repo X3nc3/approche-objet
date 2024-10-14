@@ -52,6 +52,7 @@
     "Application.TestOperation.executor": "Run",
     "Application.TestOperations.executor": "Run",
     "Application.TestPersonne.executor": "Run",
+    "Application.TestStringBuilder.executor": "Run",
     "Application.TestTheatre.executor": "Run",
     "Application.TestVilles.executor": "Run",
     "Application.VilleTri.executor": "Run",
