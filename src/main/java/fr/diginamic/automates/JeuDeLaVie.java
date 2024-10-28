@@ -139,7 +139,7 @@ public class JeuDeLaVie {
                     break;
                 case 2:
                     //Récuperation du chemin du fichier et appel des méthodes et création d'un boucle pour afficher les grille à chaque itération
-                    String path1 = "C:\\Users\\XenceMaster\\Documents\\Code\\courDiginamic\\tp_approche_objets\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ planeur.csv";
+                    String path1 = "C:\\Users\\XenceMaster\\Documents\\Code\\Cour\\Cour Diginamic\\Cour Java\\07 - Java approche POO\\TP\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ planeur.csv";
                     initialisationGrilleAvecFichier(path1);
                     nbGeneration = Integer.MAX_VALUE;
                     for (int i = 0; i < nbGeneration; i++) {
@@ -150,7 +150,7 @@ public class JeuDeLaVie {
                     break;
                 case 3:
                     //Récuperation du chemin du fichier et appel des méthodes et création d'un boucle pour afficher les grille à chaque itération
-                    String path2 = "C:\\Users\\XenceMaster\\Documents\\Code\\courDiginamic\\tp_approche_objets\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ LWSS.csv";
+                    String path2 = "C:\\Users\\XenceMaster\\Documents\\Code\\Cour\\Cour Diginamic\\Cour Java\\07 - Java approche POO\\TP\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ LWSS.csv";
                     initialisationGrilleAvecFichier(path2);
                     nbGeneration = Integer.MAX_VALUE;
                     for (int i = 0; i < nbGeneration; i++) {
@@ -161,7 +161,7 @@ public class JeuDeLaVie {
                     break;
                 case 4:
                     //Récuperation du chemin du fichier et appel des méthodes et création d'un boucle pour afficher les grille à chaque itération
-                    String path3 = "C:\\Users\\XenceMaster\\Documents\\Code\\courDiginamic\\tp_approche_objets\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ canon.csv";
+                    String path3 = "C:\\Users\\XenceMaster\\Documents\\Code\\Cour\\Cour Diginamic\\Cour Java\\07 - Java approche POO\\TP\\approche-objet\\src\\main\\java\\fr\\diginamic\\automates\\Config départ canon.csv";
                     initialisationGrilleAvecFichier(path3);
                     nbGeneration = Integer.MAX_VALUE;
                     for (int i = 0; i < nbGeneration; i++) {
