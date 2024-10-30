@@ -16,27 +16,15 @@ public class ComptagePaysParContinent {
         listPays.add(new Pays("Indonésie,", 220_000_000, "Océanie"));
         listPays.add(new Pays("Australie,", 20_000_000, "Océanie"));
 
-        int europe = 0;
-        int asie = 0;
-        int oceanie = 0;
+        HashMap<String, Integer> mapNbPaysParConti = new HashMap<>();
 
         for ( Pays pay : listPays) {
-            if (pay.getContinent() == "Europe") {
-                europe++;
-            } else if (pay.getContinent() == "Asie") {
-                asie++;
-            } else if (pay.getContinent() == "Océanie") {
-                oceanie++;
-            }
+            String continent = pay.getContinent();
+            mapNbPaysParConti.put(continent, mapNbPaysParConti.getOrDefault(continent, 0)+1);
         }
 
-        HashMap<String, Integer> mapNbPaysParConti = new HashMap<>();
-        mapNbPaysParConti.put("Europe", europe);
-        mapNbPaysParConti.put("Asie", asie);
-        mapNbPaysParConti.put("Océanie", oceanie);
-
         for (String continent : mapNbPaysParConti.keySet()) {
-            System.out.println(mapNbPaysParConti.get(continent));
+            System.out.println(continent + ":" + mapNbPaysParConti.get(continent));
         }
 
     }
